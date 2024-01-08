@@ -3,5 +3,14 @@
 version = 3
 
 [[package]]
+name = "jose_functions"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "95c3bdf00ed74a0709d815eb9cdda1bbe1ce1f12c91839174f265f0dc1314648"
+
+[[package]]
 name = "matematica"
 version = "0.1.0"
+dependencies = [
+ "jose_functions",
+]
